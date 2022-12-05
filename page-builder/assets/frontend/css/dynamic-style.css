@@ -1,0 +1,120 @@
+/* white you custom css code here. only css code will work */
+
+.header-style-03.header-variant-07 .responsive-mobile-menu:after{
+ display:none; 
+}
+.justify-content-start .col-lg-4{
+  display:flex;
+  align-items:center;
+}
+.logo-wrapper{
+  display:block;
+  width:97%;
+}
+.logo-wrapper .logo{
+  display:block;
+  width:97%;
+}
+
+.responsive-mobile-menu .logo-wrapper{
+  display:none;
+}
+.container.nav-container .responsive-mobile-menu{
+ 	display:none;
+  width: 6%;
+ }
+.collapse.navbar-collapse{
+ 	justify-self:flex-start; 
+ }
+.header-style-03.header-variant-07 .navbar-area .nav-container .navbar-collapse .navbar-nav {
+    text-align: center;
+}
+.mobile-cart{
+ display:none; 
+}
+.nav-right-content{
+ display:none; 
+}
+.owl-carousel.owl-loaded {
+  height:550px;
+}
+.owl-carousel .owl-stage-outer {
+  height:550px;
+}
+.header-area.header-bg-04:after {
+   height:550px;
+}
+.owl-carousel .owl-stage {
+  height:550px;
+}
+.header-area.industry-home {
+    padding: 98px 0 220px 0;
+}
+.header-bottom-area.padding-bottom-110{
+ padding-bottom:2px; 
+ }
+.industry-about-area.padding-top-115.padding-bottom-120{
+  padding:40px 0px; 
+ }
+.industry-btn.black:after {
+    background-color:#fff;
+  border:1px solid #191D33;
+}
+.industry-btn:after {
+    background-color: #191D33;
+}
+.industry-btn.black i {
+    color: #191D33;
+}
+.industry-btn.black i:hover {
+    color: #fff;
+}
+.industry-about-area .left-content-wrap .shape {
+    display:none;
+}
+.industry-about-area .left-content-wrap .industry-video-wrap {
+    height:500px;
+  box-shadow:6px -6px 16px #ccc;
+}
+.industry-video-wrap img {
+  height:100%;
+    width:100%;
+    border: none;
+}
+.industry-video-wrap .experience {
+    display:none;
+}
+.header-area.industry-home {
+    height: 550px;
+}
+.navbar-variant-03 .header-style-03.header-variant-07 .nav-container, .navbar-variant-03 .header-style-03.header-variant-07 .navbar-area {
+	background-color: #191D33;
+}
+.header-inner.industry-home .description {
+	font-size: 30px;
+	line-height: 35px;
+	max-width: 750px;
+	color: rgba(255, 255, 255, .8);
+}
+
+@media (max-width:991px){
+  .justify-content-start .col-lg-4{
+  display:none;
+	}
+  .responsive-mobile-menu .logo-wrapper{
+  display:block;
+  width:97%;
+	}
+  .container.nav-container .responsive-mobile-menu{
+ 	display: block;
+    position: relative;
+    width: 100%;
+ }
+  
+}
+.nav-right-content {
+    display: none!important;
+}
+:root{
+ --industry-color: #191D33; 
+}
